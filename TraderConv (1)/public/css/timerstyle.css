@@ -1,0 +1,45 @@
+* {
+
+    font-family:"Ruluko";
+
+}
+main{
+    background: #447878 !important;
+    text-align: center;
+    padding: 150px 20px !important;
+}
+h3 {
+    margin: 20px;
+    color:white;
+}
+
+#countDiv {
+    color:white;
+    display:inline-block;
+    font-size:30px;
+}
+
+#countDiv > div {
+    padding:10px;
+    background-color:#38556A;
+    border-radius: 30% 3%;
+    display:inline-block;
+}
+
+#countDiv div > span {
+    padding:15px;
+    background-color:#4C6983;
+    border-radius: 30% 3%;
+    display: inline-block;
+    transition:all 2s;
+}
+
+#countDiv div > span:hover {
+    transform:scale(2)
+}
+
+.smallText{
+    font-weight:900;
+	padding-top: 5px;
+	font-size: 16px;
+}
