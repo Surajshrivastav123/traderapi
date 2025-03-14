@@ -1,19 +1,7 @@
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
-PassengerAppRoot "/home/jmtemcuz/jpschool.co.in"
+PassengerAppRoot "/home/thetdivq/backend.gaganahuja.com"
 PassengerBaseURI "/"
-PassengerNodejs "/home/jmtemcuz/nodevenv/jpschool.co.in/14/bin/node"
+PassengerNodejs "/home/thetdivq/nodevenv/backend.gaganahuja.com/16/bin/node"
 PassengerAppType node
 PassengerStartupFile app.js
 # DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
-PassengerAppRoot "/home/thetdivq/traderconvention.gaganahuja.com"
-PassengerBaseURI "/"
-PassengerNodejs "/home/thetdivq/nodevenv/traderconvention.gaganahuja.com/16/bin/node"
-PassengerAppType node
-PassengerStartupFile app.js
-# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
-# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
-<IfModule Litespeed>
-SetEnv PORT 3008
-</IfModule>
-# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
